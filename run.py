@@ -46,38 +46,11 @@ script_25 = ("羯", "諦", "　", "羯", "諦", "　", "波", "羅", "羯", "諦
 script_26 = ("菩", "提", "薩", "婆", "訶")
 script_27 = ("般", "若", "心", "経")
 
-for i in range(1, 27):
-    pass
+scripts = (script_1, script_2, script_3, script_4, script_5, script_6, script_7, script_8, script_9, script_10,
+           script_11, script_12, script_13, script_14, script_15, script_16, script_17, script_18, script_19, script_20,
+           script_21, script_22, script_23, script_24, script_25, script_26, script_27)
 
-
-
-for j in script_1:
-    display(j)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-pyautogui.press("enter", presses = 2)
-
-
+for i in scripts:
+    for j in i:
+        display(j)
+    pyautogui.press("enter", presses = 2)
