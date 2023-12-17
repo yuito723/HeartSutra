@@ -3,20 +3,10 @@ cyber-yuito723/HeartSutra
 (C) 2023 cyber-yuito723
 """
 
-import pyautogui
-import pyperclip
-import subprocess
 import time
 
-print("cyber-yuito723/HeartSutra\n(C) 2023 cyber-yuito723\n\nメモ帳が起動した後、３秒後に写経がはじまります。")
+print("cyber-yuito723/HeartSutra\n(C) 2023 cyber-yuito723\n\n３秒後に写経がはじまります。\n\n")
 time.sleep(3)
-subprocess.Popen("notepad.exe")
-time.sleep(3)
-
-def display(letter):
-    pyperclip.copy(letter)
-    pyautogui.hotkey("ctrl", "v")
-    time.sleep(0.5)
 
 script_1 = ("観", "自", "在", "菩", "薩", "　", "行", "深", "般", "若", "波", "羅", "蜜", "多", "時")
 script_2 = ("照", "見", "五", "蘊", "皆", "空", "　", "度", "一", "切", "苦", "厄")
@@ -50,5 +40,8 @@ scripts = (script_1, script_2, script_3, script_4, script_5, script_6, script_7,
 
 for i in scripts:
     for j in i:
-        display(j)
-    pyautogui.press("enter", presses = 2)
+        print(j)
+        time.sleep(0.5)
+    print("\n")
+
+input("御勤めお疲れさまでした。\n終了する場合は、エンターキーを押してください。")
