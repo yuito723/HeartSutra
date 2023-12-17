@@ -18,7 +18,6 @@ def display(letter):
     time.sleep(0.3)
     pyautogui.hotkey("ctrl", "v")
     time.sleep(0.1)
-    
 
 script_1 = ("観", "自", "在", "菩", "薩", "　", "行", "深", "般", "若", "波", "羅", "蜜", "多", "時")
 script_2 = ("照", "見", "五", "蘊", "皆", "空", "　", "度", "一", "切", "苦", "厄")
