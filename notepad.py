@@ -17,6 +17,7 @@ def display(letter):
     pyperclip.copy(letter)
     pyautogui.hotkey("ctrl", "v")
     time.sleep(0.5)
+    
 
 script_1 = ("観", "自", "在", "菩", "薩", "　", "行", "深", "般", "若", "波", "羅", "蜜", "多", "時")
 script_2 = ("照", "見", "五", "蘊", "皆", "空", "　", "度", "一", "切", "苦", "厄")
@@ -51,4 +52,4 @@ scripts = (script_1, script_2, script_3, script_4, script_5, script_6, script_7,
 for i in scripts:
     for j in i:
         display(j)
-    pyautogui.press("enter", presses = 2)
+    pyautogui.press("enter", presses = 1)
