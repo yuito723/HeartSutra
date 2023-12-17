@@ -54,4 +54,4 @@ for i in scripts:
         display(j)
     pyautogui.press("enter", presses = 1)
 
-input("御勤めお疲れさまでした。\n終了する場合は、エンターキーを押してください。")
+input("\n御勤めお疲れさまでした。\n終了する場合は、エンターキーを押してください。")
