@@ -15,8 +15,9 @@ time.sleep(3)
 
 def display(letter):
     pyperclip.copy(letter)
+    time.sleep(0.3)
     pyautogui.hotkey("ctrl", "v")
-    time.sleep(0.5)
+    time.sleep(0.1)
     
 
 script_1 = ("観", "自", "在", "菩", "薩", "　", "行", "深", "般", "若", "波", "羅", "蜜", "多", "時")
