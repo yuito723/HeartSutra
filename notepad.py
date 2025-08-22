@@ -1,5 +1,5 @@
 """
-cyber-yuito723/HeartSutra
+yuito723/HeartSutra
 """
 
 import pyautogui
