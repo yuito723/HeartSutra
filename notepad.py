@@ -7,7 +7,7 @@ import pyperclip
 import subprocess
 import time
 
-print("cyber-yuito723/HeartSutra\n\nメモ帳が起動した後、３秒後に写経がはじまります。")
+print("yuito723/HeartSutra\n\nメモ帳が起動した後、３秒後に写経がはじまります。")
 time.sleep(3)
 subprocess.Popen("notepad.exe")
 time.sleep(3)
