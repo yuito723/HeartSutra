@@ -1,10 +1,10 @@
 """
-cyber-yuito723/HeartSutra
+yuito723/HeartSutra
 """
 
 import time
 
-print("cyber-yuito723/HeartSutra\n\n３秒後に写経がはじまります。\n\n")
+print("yuito723/HeartSutra\n\n３秒後に写経がはじまります。\n\n")
 time.sleep(3)
 
 script_1 = ("観", "自", "在", "菩", "薩", "　", "行", "深", "般", "若", "波", "羅", "蜜", "多", "時")
